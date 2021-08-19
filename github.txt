@@ -1,5 +1,6 @@
-…或在命令行上创建新的存储库
- 回声“＃ceph-” >> README.md 
+或在命令行上创建新的存储库
+回声“＃ceph-” >> README.md 
+```bash
 git init 
 git add README.md 
 git commit -m“第一次提交” 
@@ -8,3 +9,4 @@ git remote add origin https://github.com/gitgubtest/ceph-.git
 …或从命令行推送现有存储库
  git remote add origin https://github.com/gitgubtest/ceph-.git
  git push -u原始主机
+```
